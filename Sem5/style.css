@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    padding-bottom: 96px;
+}
+
+.header {
+    padding-top: 61px;
+    padding-bottom: 84px;
+    padding-left: 372px;
+    padding-right: 372px;
+}
+
+.top__content {
+    margin-top: 64px;
+    margin-bottom: 134px;
+    padding-left: 382px;
+}
+
+.title {
+    margin-bottom: 5.17px;
+}
+
+.subtitle {
+    margin-bottom: 38.23px;
+}
+
+.top_image {
+    padding-top: 185px;
+    padding-left: 943px;
+    padding-right: 366.27px;
+    padding-bottom: 135.1px;
+}
+
+.top__logos {
+    padding-left: 346.62px;
+    padding-right: 376.76px;
+}
