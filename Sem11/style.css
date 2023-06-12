@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.info {
+    font-family: 'Lato', sans-serif;
+}
+
+.top__bar {
+    height: 75px;
+    width: 100%;
+    background-color: #222222;
+    display: flex;
+    gap: 859px;
+}
+
+.top_left {
+    padding-top: 18px;
+    padding-bottom: 19px;
+    padding-left: 231px;
+    display: flex;
+    gap: 41px;
+}
+
+.top_right {
+    padding-top: 18px;
+    padding-bottom: 19px;
+    padding-left: 240px;
+    display: flex;
+    gap: 33px;
+}
+
+.top_button {
+    background-color: #222222;
+    border: none;
+}
+
+.advertisement {
+    background-color: #F1E4E6;
+    display: flex;
+    gap: 63.42px;
+}
+
+.advert_header {
+    display: flex;
+    gap: 16px;
+    margin-top: 289px;
+}
+
+.rectangle {
+    width: 12px;
+    height: 92px;
+    background-color: #F16D7F;
+}
+
+.offer {
+    display: grid;
+    gap: 30px;
+    grid-template-rows: repeat(3, 360);
+    justify-content: center;
+    margin-top: 65px;
+}
+
+.propose {
+    position: relative;
+    background: none;
+}
+
+.center {
+    position: absolute;
+}
