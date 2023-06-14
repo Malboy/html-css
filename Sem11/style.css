@@ -57,16 +57,69 @@
 .offer {
     display: grid;
     gap: 30px;
-    grid-template-rows: repeat(3, 360);
+    grid-template-columns: repeat(3, 360px);
     justify-content: center;
     margin-top: 65px;
-}
-
-.propose {
     position: relative;
-    background: none;
 }
 
-.center {
+.description {
     position: absolute;
+    text-align: center;
+}
+
+.attention {
+    margin-top: 96px;
+    text-align: center;
+}
+
+.info {
+    margin-top: 6px;
+}
+
+.featured {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 360px);
+    justify-content: center;
+    margin-top: 47px;
+}
+
+.case {
+    background-color: #F8F8F8;
+}
+
+.category {
+    margin-top: 25px;
+    margin-left: 16px;
+    margin-right: 28.8px;
+}
+
+.information {
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 28.8px;
+}
+
+.price {
+    margin-top: 16px;
+    margin-bottom: 19px;
+    margin-left: 16px;
+    margin-right: 28.8px;
+}
+
+.central_button {
+    margin-top: 48.5px;
+    padding-bottom: 60.5px;
+}
+
+.products {
+    height: 47px;
+    width: 211px;
+    /*position: center;*/
+    background-color: #ffffff;
+    color: #F26376;
+    border-color: #F26376;
+    display: block;
+    margin: 0 auto;
 }
