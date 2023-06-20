@@ -1,0 +1,172 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .menu__bar {
+            height: 75px;
+            width: 100%;
+            background-color: #222222;
+            display: flex;
+            gap: 46.31%;
+        }
+        
+        .butt {
+            background-color: #222222;
+        }
+        
+        .left__bar {
+            padding-top: 18px;
+            padding-left: 14.44%;
+            padding-right: 78.63%;
+            padding-bottom: 19px;
+            display: flex;
+            gap: 40px;
+            position: absolute;
+        }
+        
+        .right__bar {
+            padding-top: 26px;
+            padding-bottom: 20px;
+            padding-right: 15%;
+            padding-left: 75.06%;
+            position: absolute;
+            display: flex;
+            gap: 33px;
+        }
+        
+        .cover {
+            background-color: #F1E4E6;
+            display: flex;
+            gap: 63.42px;
+        }
+        
+        .advert_header {
+            display: flex;
+            gap: 16px;
+            margin-top: 289px;
+            padding-right: 20.69%;
+        }
+        
+        .rectangle {
+            width: 12px;
+            height: 92px;
+            background-color: #F16D7F;
+        }
+        
+        .center {
+            padding-left: calc(50% - 570px);
+            padding-right: calc(50% - 570px);
+        }
+        
+        .offer {
+            display: grid;
+            gap: 30px;
+            grid-template-columns: repeat(3, 360px);
+            justify-content: center;
+            margin-top: 65px;
+            position: relative;
+        }
+        
+        .description {
+            position: absolute;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .attention {
+            margin-top: 96px;
+            text-align: center;
+        }
+        
+        .featured {
+            display: grid;
+            gap: 30px;
+            grid-template-columns: repeat(3, 360px);
+            justify-content: center;
+            margin-top: 47px;
+        }
+        
+        .case {
+            background-color: #F8F8F8;
+        }
+        
+        .category {
+            margin-top: 25px;
+            margin-left: 16px;
+            margin-right: 28.8px;
+        }
+        
+        .information {
+            margin-top: 16px;
+            margin-left: 16px;
+            margin-right: 28.8px;
+        }
+        
+        .price {
+            margin-top: 16px;
+            margin-bottom: 19px;
+            margin-left: 16px;
+            margin-right: 28.8px;
+        }
+        
+        .central_button {
+            margin-top: 48.5px;
+            padding-bottom: 60.5px;
+        }
+        
+        .products {
+            height: 47px;
+            width: 211px;
+            /*position: center;*/
+            background-color: #ffffff;
+            color: #F26376;
+            border-color: #F26376;
+            display: block;
+            margin: 0 auto;
+        }
+        
+        @media (max-width:1024px) {
+            center {
+                padding-left: calc(50% - 367.29px);
+                padding-right: calc(50% - 367.29px);
+            }
+            .menu__bar {
+                height: 74px;
+                gap: 63.93%
+            }
+            .left__bar {
+                padding-top: 18px;
+                padding-left: 4.17%;
+                padding-right: 81.38%;
+                margin-bottom: 18px;
+                position: absolute;
+            }
+            .right__bar {
+                padding-top: 27px;
+                margin-bottom: 20px;
+                padding-right: 4.17%;
+                padding-left: 73.83%;
+                position: absolute;
+            }
+            .cover {
+                height: 386px;
+                gap: 39px;
+            }
+            .advert_header {
+                margin-top: 138px;
+                padding-right: 4.17%;
+            }
+            .rectangle {
+                width: 12px;
+                height: 92px;
+            }
+            .offer {
+                display: grid;
+                gap: 18.5;
+                grid-template-columns: repeat(3, 232px);
+                justify-content: center;
+                margin-top: 65px;
+                position: relative;
+            }
+        }
