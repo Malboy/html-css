@@ -63,15 +63,26 @@
                 display: grid;
                 gap: 30px;
                 grid-template-columns: repeat(3, 360px);
-                justify-content: center;
                 margin-top: 65px;
+            }
+            
+            .propose {
+                text-align: center;
                 position: relative;
+                justify-content: center;
             }
             
             .description {
                 position: absolute;
-                margin: 0 auto;
                 text-align: center;
+                top: 105px;
+                color: rgba(255, 255, 255, 1)
+                /*margin: 0 auto;*/
+            }
+            
+            .middle {
+                padding-left: calc(50% - 55px);
+                padding-right: calc(50% - 55px);
             }
             
             .attention {
@@ -124,6 +135,52 @@
                 border-color: #F26376;
                 display: block;
                 margin: 0 auto;
+            }
+            
+            .advantages {
+                /*width: 100%;
+                */
+                display: grid;
+                gap: 30px;
+                grid-template-columns: repeat(3, 360px);
+                background-color: rgba(34, 34, 36, 1);
+            }
+            
+            .icon {
+                margin-top: 104px;
+                margin-left: calc(50% - 40px);
+            }
+            
+            .adv {
+                margin-top: 28.07px;
+                margin-left: calc(50% - 75px);
+                margin-right: calc(50% - 75px);
+                color: rgba(251, 251, 251, 1);
+            }
+            
+            .inf {
+                margin-top: 16px;
+                color: rgba(251, 251, 251, 1);
+                text-align: center;
+                margin-bottom: 104px;
+            }
+            
+            .subscribtion {
+                width: 100%;
+                position: relative;
+            }
+            
+            .portrait {
+                position: absolute;
+                left: calc(50% - 548px);
+            }
+            
+            .footer {
+                height: 79px;
+                width: 100%;
+                margin-top: 30px;
+                display: grid;
+                gap: 7.29px;
             }
             
             @media (max-width:1024px) {
