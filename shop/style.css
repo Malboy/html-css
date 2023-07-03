@@ -1,268 +1,355 @@
-            * {
-                margin: 0;
-                padding: 0;
-            }
-            
-            .menu__bar {
-                height: 75px;
-                width: 100%;
-                background-color: #222222;
-                display: flex;
-                gap: 46.31%;
-            }
-            
-            .butt {
-                background-color: #222222;
-            }
-            
-            .left__bar {
-                padding-top: 18px;
-                padding-left: 14.44%;
-                padding-right: 78.63%;
-                padding-bottom: 19px;
-                display: flex;
-                gap: 40px;
-                position: absolute;
-            }
-            
-            .right__bar {
-                padding-top: 26px;
-                padding-bottom: 20px;
-                padding-right: 15%;
-                padding-left: 75.06%;
-                position: absolute;
-                display: flex;
-                gap: 33px;
-            }
-            
-            .cover {
-                background-color: #F1E4E6;
-                display: flex;
-                gap: 63.42px;
-            }
-            
-            .advert_header {
-                display: flex;
-                gap: 16px;
-                margin-top: 289px;
-                padding-right: 20.69%;
-            }
-            
-            .rectangle {
-                width: 12px;
-                height: 92px;
-                background-color: #F16D7F;
-            }
-            
-            .center {
-                padding-left: calc(50% - 570px);
-                padding-right: calc(50% - 570px);
-            }
-            
-            .offer {
-                display: grid;
-                gap: 30px;
-                grid-template-columns: repeat(3, 360px);
-                margin-top: 65px;
-            }
-            
-            .propose {
-                text-align: center;
-                position: relative;
-                justify-content: center;
-            }
-            
-            .description {
-                position: absolute;
-                text-align: center;
-                top: 105px;
-                color: rgba(255, 255, 255, 1)
-                /*margin: 0 auto;*/
-            }
-            
-            .middle {
-                padding-left: calc(50% - 55px);
-                padding-right: calc(50% - 55px);
-            }
-            
-            .attention {
-                margin-top: 96px;
-                text-align: center;
-            }
-            
-            .featured {
-                display: grid;
-                gap: 30px;
-                grid-template-columns: repeat(3, 360px);
-                justify-content: center;
-                margin-top: 47px;
-            }
-            
-            .case {
-                background-color: #F8F8F8;
-            }
-            
-            .category {
-                margin-top: 25px;
-                margin-left: 16px;
-                margin-right: 28.8px;
-            }
-            
-            .information {
-                margin-top: 16px;
-                margin-left: 16px;
-                margin-right: 28.8px;
-            }
-            
-            .price {
-                margin-top: 16px;
-                margin-bottom: 19px;
-                margin-left: 16px;
-                margin-right: 28.8px;
-            }
-            
-            .central_button {
-                margin-top: 48.5px;
-                padding-bottom: 60.5px;
-            }
-            
-            .products {
-                height: 47px;
-                width: 211px;
-                /*position: center;*/
-                background-color: #ffffff;
-                color: #F26376;
-                border-color: #F26376;
-                display: block;
-                margin: 0 auto;
-            }
-            
-            .advantages {
-                /*width: 100%;
-                */
-                display: grid;
-                gap: 30px;
-                grid-template-columns: repeat(3, 360px);
-                background-color: rgba(34, 34, 36, 1);
-            }
-            
-            .icon {
-                margin-top: 104px;
-                margin-left: calc(50% - 40px);
-            }
-            
-            .adv {
-                margin-top: 28.07px;
-                margin-left: calc(50% - 75px);
-                margin-right: calc(50% - 75px);
-                color: rgba(251, 251, 251, 1);
-            }
-            
-            .inf {
-                margin-top: 16px;
-                color: rgba(251, 251, 251, 1);
-                text-align: center;
-                margin-bottom: 104px;
-            }
-            
-            .subscribtion {
-                width: 100%;
-                position: relative;
-            }
-            
-            .portrait {
-                position: absolute;
-                left: calc(50% - 548px);
-            }
-            
-            .footer {
-                height: 79px;
-                width: 100%;
-                margin-top: 30px;
-                display: grid;
-                gap: 7.29px;
-            }
-            
-            @media (max-width:1024px) {
-                center {
-                    padding-left: calc(50% - 367.29px);
-                    padding-right: calc(50% - 367.29px);
-                }
-                .menu__bar {
-                    height: 74px;
-                    gap: 63.93%
-                }
-                .left__bar {
-                    padding-top: 18px;
-                    padding-left: 4.17%;
-                    padding-right: 81.38%;
-                    margin-bottom: 18px;
-                    position: absolute;
-                }
-                .right__bar {
-                    padding-top: 27px;
-                    margin-bottom: 20px;
-                    padding-right: 4.17%;
-                    padding-left: 73.83%;
-                    position: absolute;
-                }
-                .cover {
-                    height: 386px;
-                    gap: 39px;
-                }
-                .advert_header {
-                    margin-top: 138px;
-                    padding-right: 4.17%;
-                }
-                .rectangle {
-                    width: 12px;
-                    height: 92px;
-                }
-                .offer {
-                    display: grid;
-                    gap: 18.5;
-                    grid-template-columns: repeat(3, 232px);
-                    justify-content: center;
-                    margin-top: 65px;
-                    position: relative;
-                }
-                .propose__acsesoire {
-                    width: 736px;
-                }
-            }
-            
-            @media(max-width:767px) {
-                center {
-                    padding-left: calc(50% - 171.5px);
-                    padding-right: calc(50% - 171.5px);
-                }
-                .menu__bar {
-                    height: 74px;
-                    gap: 46.6%
-                }
-                .cart {
-                    display: none;
-                }
-                .profile {
-                    display: none;
-                }
-                .man {
-                    display: none;
-                }
-                .advert_header {
-                    display: flex;
-                    justify-content: center;
-                    margin-left: auto;
-                    margin-right: auto;
-                }
-                .offer {
-                    display: grid;
-                    grid-template-columns: repeat(1, 343px);
-                    justify-content: center;
-                    margin-top: 64px;
-                    position: relative;
-                }
-                .propose__acsesoire {
-                    width: 343px;
-                }
-            }
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .menu__bar {
+        height: 75px;
+        width: 100%;
+        background-color: #222222;
+        display: flex;
+        gap: 46.31%;
+    }
+    
+    .butt {
+        background-color: #222222;
+    }
+    
+    .left__bar {
+        padding-top: 18px;
+        padding-left: 14.44%;
+        padding-right: 78.63%;
+        padding-bottom: 19px;
+        display: flex;
+        gap: 40px;
+        position: absolute;
+    }
+    
+    .right__bar {
+        padding-top: 26px;
+        padding-bottom: 20px;
+        padding-right: 15%;
+        padding-left: 75.06%;
+        position: absolute;
+        display: flex;
+        gap: 33px;
+    }
+    
+    .cover {
+        background-color: #F1E4E6;
+        display: flex;
+        gap: 63.42px;
+    }
+    
+    .advert_header {
+        display: flex;
+        gap: 16px;
+        margin-top: 289px;
+        padding-right: 20.69%;
+    }
+    
+    .rectangle {
+        width: 12px;
+        height: 92px;
+        background-color: #F16D7F;
+    }
+    
+    .center {
+        padding-left: calc(50% - 570px);
+        padding-right: calc(50% - 570px);
+    }
+    
+    .offer {
+        display: grid;
+        gap: 30px;
+        grid-template-columns: repeat(3, 360px);
+        margin-top: 65px;
+    }
+    
+    .propose {
+        text-align: center;
+        position: relative;
+        justify-content: center;
+    }
+    
+    .description {
+        position: absolute;
+        text-align: center;
+        top: 105px;
+        color: rgba(255, 255, 255, 1)
+        /*margin: 0 auto;*/
+    }
+    
+    .middle {
+        padding-left: calc(50% - 55px);
+        padding-right: calc(50% - 55px);
+    }
+    
+    .attention {
+        margin-top: 96px;
+        text-align: center;
+    }
+    
+    .featured {
+        display: grid;
+        gap: 30px;
+        grid-template-columns: repeat(3, 360px);
+        justify-content: center;
+        margin-top: 47px;
+    }
+    
+    .case {
+        background-color: #F8F8F8;
+    }
+    
+    .category {
+        margin-top: 25px;
+        margin-left: 16px;
+        margin-right: 28.8px;
+    }
+    
+    .information {
+        margin-top: 16px;
+        margin-left: 16px;
+        margin-right: 28.8px;
+    }
+    
+    .price {
+        margin-top: 16px;
+        margin-bottom: 19px;
+        margin-left: 16px;
+        margin-right: 28.8px;
+    }
+    
+    .central_button {
+        margin-top: 48.5px;
+        padding-bottom: 60.5px;
+    }
+    
+    .products {
+        height: 47px;
+        width: 211px;
+        /*position: center;*/
+        background-color: #ffffff;
+        color: #F26376;
+        border-color: #F26376;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .advantages {
+        /*width: 100%;*/
+        display: grid;
+        gap: 30px;
+        grid-template-columns: repeat(3, 360px);
+        background-color: rgba(34, 34, 36, 1);
+    }
+    
+    .icon {
+        margin-top: 104px;
+        margin-left: calc(50% - 40px);
+    }
+    
+    .adv {
+        margin-top: 28.07px;
+        margin-left: calc(50% - 75px);
+        margin-right: calc(50% - 75px);
+        color: rgba(251, 251, 251, 1);
+    }
+    
+    .inf {
+        margin-top: 16px;
+        color: rgba(251, 251, 251, 1);
+        text-align: center;
+        margin-bottom: 104px;
+    }
+    
+    .form {
+        display: flex;
+        gap: 223px;
+    }
+    
+    .fon {
+        width: 100%;
+        position: absolute;
+    }
+    
+    .director {
+        position: relative;
+        display: grid;
+        padding-left: calc(50% - 600px);
+        width: 360px;
+    }
+    
+    .portrait {
+        padding-top: 86.6px;
+        display: block;
+        margin: auto;
+    }
+    
+    .opium {
+        text-align: center;
+    }
+    
+    .subscription {
+        position: relative;
+        display: grid;
+        margin-right: calc(50% - 473px);
+    }
+    
+    .heder {
+        text-align: center;
+        padding-top: 150px;
+        font-size: 24px;
+    }
+    
+    .accept {
+        margin: auto;
+        margin-top: 32px;
+        display: flex;
+    }
+    
+    .mail {
+        width: 256px;
+        height: 49px;
+        color: #222224;
+        background-color: rgba(225, 225, 225, 1);
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-width: 0;
+        text-align: center;
+    }
+    
+    .subscribe {
+        width: 100px;
+        background-color: rgba(241, 109, 127, 1);
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-width: 0;
+    }
+    
+    .dno {
+        margin-top: 156px;
+        width: 100%;
+        background-color: rgba(34, 34, 36, 1);
+        position: relative;
+        height: 79px;
+        width: 100%;
+        color: rgba(34, 34, 36, 1);
+        display: flex;
+        gap: 655px;
+    }
+    
+    .copyright {
+        margin-top: 30px;
+        color: #FBFBFB;
+    }
+    
+    .links {
+        padding-top: 24px;
+    }
+    
+    @media (max-width:1024px) {
+        center {
+            padding-left: calc(50% - 367.29px);
+            padding-right: calc(50% - 367.29px);
+        }
+        .menu__bar {
+            height: 74px;
+            gap: 63.93%
+        }
+        .left__bar {
+            padding-top: 18px;
+            padding-left: 4.17%;
+            padding-right: 81.38%;
+            margin-bottom: 18px;
+            position: absolute;
+        }
+        .right__bar {
+            padding-top: 27px;
+            margin-bottom: 20px;
+            padding-right: 4.17%;
+            padding-left: 73.83%;
+            position: absolute;
+        }
+        .cover {
+            height: 386px;
+            gap: 39px;
+        }
+        .advert_header {
+            margin-top: 138px;
+            padding-right: 4.17%;
+        }
+        .rectangle {
+            width: 12px;
+            height: 92px;
+        }
+        .offer {
+            display: grid;
+            gap: 18.5;
+            grid-template-columns: repeat(3, 232px);
+            justify-content: center;
+            margin-top: 65px;
+            position: relative;
+        }
+        .propose__acsesoire {
+            width: 736px;
+        }
+        .offer {
+            display: grid;
+            gap: 20px;
+            grid-template-columns: repeat(3, 232px);
+            margin-top: 65px;
+        }
+        .featured {
+            display: grid;
+            gap: 16px;
+            grid-template-columns: repeat(2, 582px);
+            justify-content: center;
+            margin-top: 72px;
+        }
+        .case {
+            width: 360px;
+        }
+        .advantages {
+            margin-left: 18px;
+            display: flex;
+            gap: 48px;
+        }
+    }
+    
+    @media(max-width:767px) {
+        center {
+            padding-left: calc(50% - 171.5px);
+            padding-right: calc(50% - 171.5px);
+        }
+        .menu__bar {
+            height: 74px;
+            gap: 46.6%
+        }
+        .cart {
+            display: none;
+        }
+        .profile {
+            display: none;
+        }
+        .man {
+            display: none;
+        }
+        .advert_header {
+            display: flex;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .offer {
+            display: grid;
+            grid-template-columns: repeat(1, 343px);
+            justify-content: center;
+            margin-top: 64px;
+            position: relative;
+        }
+        .propose__acsesoire {
+            width: 343px;
+        }
+    }
