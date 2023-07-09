@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu__bar {
+    height: 75px;
+    width: 100%;
+    background-color: #222222;
+    display: flex;
+    gap: 46.31%;
+}
+
+.butt {
+    background-color: #222222;
+}
+
+.left__bar {
+    padding-top: 18px;
+    padding-left: 14.44%;
+    padding-right: 78.63%;
+    padding-bottom: 19px;
+    position: absolute;
+    display: flex;
+    gap: 40px;
+}
+
+.right__bar {
+    padding-top: 26px;
+    padding-bottom: 20px;
+    padding-right: 15%;
+    padding-left: 75.06%;
+    position: absolute;
+    display: flex;
+    gap: 33px;
+}
+
+.top__menu {
+    height: 148px;
+    background-color: rgba(248, 243, 244, 1);
+    display: flex;
+    gap: 737px;
+    padding-left: 230px;
+    padding-top: 59px;
+}
+
+.name__page {
+    color: #F16D7F;
+    font-size: 24px;
+}
+
+.links {
+    color: #636363;
+    font-size: 14px;
+}
+
+.billboard {
+    width: 100%;
+    height: 777px;
+    background-color: #F7F7F7;
+    display: flex;
+}
+
+.left_arrow {
+    height: 47px;
+    width: 47px;
+    margin-top: 365px;
+}
+
+.main__screen {
+    padding-left: 514px;
+}
+
+.right_arrow {
+    width: 47px;
+    height: 47px;
+    margin-top: 365px;
+    margin-left: 625px;
+}
+
+.featured {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 360px);
+    justify-content: center;
+    margin-top: 47px;
+}
+
+.case {
+    background-color: #F8F8F8;
+}
+
+.form {
+    display: flex;
+    gap: 223px;
+}
+
+.fon {
+    width: 100%;
+    position: absolute;
+}
+
+.director {
+    position: relative;
+    display: grid;
+    padding-left: calc(50% - 600px);
+    width: 360px;
+}
+
+.portrait {
+    padding-top: 86.6px;
+    display: block;
+    margin: auto;
+}
+
+.opium {
+    text-align: center;
+}
+
+.subscription {
+    position: relative;
+    display: grid;
+    margin-right: calc(50% - 473px);
+}
+
+.heder {
+    text-align: center;
+    padding-top: 150px;
+    font-size: 24px;
+}
+
+.accept {
+    margin: auto;
+    margin-top: 32px;
+    display: flex;
+}
+
+.mail {
+    width: 256px;
+    height: 49px;
+    color: #222224;
+    background-color: rgba(225, 225, 225, 1);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-width: 0;
+    text-align: center;
+}
+
+.subscribe {
+    width: 100px;
+    background-color: rgba(241, 109, 127, 1);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-width: 0;
+}
+
+.dno {
+    margin-top: 156px;
+    width: 100%;
+    background-color: rgba(34, 34, 36, 1);
+    position: relative;
+    height: 79px;
+    width: 100%;
+    color: rgba(34, 34, 36, 1);
+    display: flex;
+    gap: 655px;
+}
+
+.copyright {
+    margin-top: 30px;
+    color: #FBFBFB;
+}
+
+.links {
+    padding-top: 24px;
+}
