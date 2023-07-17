@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.a {
+    text-decoration: none;
+}
+
+.menu__bar {
+    height: 44px;
+    width: 100%;
+    background-color: #222222;
+    position: absolute;
+    display: flex;
+    gap: 41px;
+    padding-left: 231px;
+    padding-top: 20px;
+    padding-bottom: 22px;
+}
+
+.butt {
+    background-color: #222222;
+}
+
+.menu {
+    margin-left: +816px;
+}
+
+.profile {
+    margin-left: -16px;
+}
+
+.top__menu {
+    height: 148px;
+    width: 100%;
+    background-color: rgba(248, 243, 244, 1);
+    padding-left: 230px;
+    padding-top: 59px;
+}
+
+.name__page {
+    color: #F16D7F;
+    font-size: 24px;
+    position: absolute;
+    margin-top: 59px;
+}
+
+.center {
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+}
+
+.order {
+    display: flex;
+    gap: 128px;
+    margin-top: 96px;
+}
+
+.purchases {
+    display: grid;
+    gap: 40px;
+}
+
+.position {
+    width: 652px;
+    height: 306px;
+    box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.2);
+    display: flex;
+}
+
+.text_info {
+    margin-left: 32px;
+    margin-top: 22px;
+}
+
+.name {
+    width: 262px;
+    height: 58px;
+    color: #222;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.characteristics {
+    margin-top: 42px;
+    display: grid;
+    gap: 6px;
+    color: #575757;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.delete {
+    height: 18px;
+    width: 18px;
+    border: none;
+    background-color: white;
+    margin-top: 28px;
+    margin-left: 57px;
+    &:hover {
+        background-color: #EF5B70;
+    }
+}
+
+.interaction {
+    margin-top: 72px;
+    display: flex;
+    gap: 192px;
+}
+
+.iteract {
+    width: 230px;
+    height: 50px;
+    border: 1px solid rgba(164, 164, 164, 1);
+    background-color: white;
+}
+
+.total_info {
+    margin-top: 17px;
+    display: grid;
+}
+
+.contact {
+    width: 360px;
+    height: 272px;
+    display: grid;
+    gap: 20px;
+}
+
+.adress {
+    color: #222;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.vvod {
+    width: 360px;
+    height: 45px;
+    padding-left: 17px;
+    color: #222;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.quote {
+    width: 101px;
+    height: 35px;
+    color: #4A4A4A;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    background-color: white;
+    border: 1px solid rgba(164, 164, 164, 1);
+}
+
+.cheque {
+    width: 360px;
+    height: 214px;
+    background-color: rgba(245, 243, 243, 1);
+}
+
+.goal {
+    width: 275px;
+    height: 86px;
+    margin-left: 43px;
+    border: 5px 5px 5px 5px rgba(226, 226, 226, 0.5);
+}
+
+.sub {
+    margin-top: 39px;
+    margin-left: 175px;
+    color: #4A4A4A;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.total {
+    margin-top: 12px;
+    margin-left: 110px;
+    color: #222;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.checkout {
+    width: 273px;
+    height: 50px;
+    background-color: #F16D7F;
+    margin-left: 41px;
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.form {
+    margin-top: 128px;
+    display: flex;
+    gap: 223px;
+}
+
+.fon {
+    width: 100%;
+    position: absolute;
+}
+
+.director {
+    position: relative;
+    display: grid;
+    padding-left: calc(50% - 600px);
+    width: 360px;
+}
+
+.portrait {
+    padding-top: 86.6px;
+    display: block;
+    margin: auto;
+}
+
+.opium {
+    text-align: center;
+}
+
+.subscription {
+    position: relative;
+    display: grid;
+    margin-right: calc(50% - 473px);
+}
+
+.heder {
+    text-align: center;
+    padding-top: 150px;
+    font-size: 24px;
+}
+
+.accept {
+    margin: auto;
+    margin-top: 32px;
+    display: flex;
+}
+
+.mail {
+    width: 256px;
+    height: 49px;
+    color: #222224;
+    background-color: rgba(225, 225, 225, 1);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-width: 0;
+    text-align: center;
+}
+
+.subscribe {
+    width: 100px;
+    background-color: rgba(241, 109, 127, 1);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-width: 0;
+}
+
+.dno {
+    margin-top: 156px;
+    width: 100%;
+    background-color: rgba(34, 34, 36, 1);
+    position: relative;
+    height: 79px;
+    width: 100%;
+    color: rgba(34, 34, 36, 1);
+    display: flex;
+    gap: 655px;
+}
+
+.copyright {
+    margin-top: 30px;
+    color: #FBFBFB;
+}
+
+.links {
+    padding-top: 24px;
+}
