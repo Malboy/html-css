@@ -340,6 +340,35 @@
         .adv {
             margin-top: 28px;
         }
+        .ending {
+            width: 100%;
+            height: 693px;
+        }
+        .cont {
+            display: grid;
+            gap: 48px;
+        }
+        .fon {
+            object-fit: cover;
+            width: 100%;
+            height: 693px;
+            position: relative;
+        }
+        .left {
+            margin-top: 64px;
+            padding-left: 204px;
+        }
+        .right {
+            margin-top: 0px;
+            padding-left: 105px;
+        }
+        .subscription {
+            display: grid;
+            gap: 27px;
+        }
+        .dno {
+            gap: 305px;
+        }
     }
     
     @media(max-width:767px) {
